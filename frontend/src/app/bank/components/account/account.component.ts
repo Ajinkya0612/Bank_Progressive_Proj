@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // src/app/accounts/accounts.component.ts
 import { Component, OnInit } from '@angular/core';
 import { AccountTS } from '../../types/tstypes/Accountts';
@@ -32,4 +33,10 @@ throw new Error('Method not implemented.');
     this.account = new AccountTS("1" ,1000.00,"1");
 
   }
+=======
+
+export class AccountComponent {
+ 
+
+>>>>>>> 627b932617476d74b5308bdc8fc0f67ee634f20f
 }

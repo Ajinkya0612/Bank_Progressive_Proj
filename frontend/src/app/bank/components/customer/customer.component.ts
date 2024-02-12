@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 import { CustomerTS } from '../../types/tstypes/Customerts'; 
 import { FormBuilder, FormGroup, FormsModule, Validators } from '@angular/forms';
@@ -41,5 +42,10 @@ throw new Error('Method not implemented.');
   }
 
   
+=======
+
+export class CustomerComponent  {
+
+>>>>>>> 627b932617476d74b5308bdc8fc0f67ee634f20f
   
 }

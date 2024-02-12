@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { TransactionTS } from '../../types/tstypes/Transactionts';
@@ -34,4 +35,9 @@ export class TransactionComponent implements OnInit {
       // Further logic for handling the transaction
     }
   }
+=======
+
+export class TransactionComponent {
+ 
+>>>>>>> 627b932617476d74b5308bdc8fc0f67ee634f20f
 }

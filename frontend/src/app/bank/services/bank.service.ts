@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Injectable } from "@angular/core";
 import { environment } from "src/environments/environment";
 import { HttpClient } from "@angular/common/http";
@@ -16,6 +17,22 @@ export class BankService {
   constructor(private http: HttpClient) {}
 
   addCustomer(customer: Customer): Observable<Customer> {
+=======
+
+import { environment } from "src/environments/environment";
+import { Transaction } from "../types/transaction";
+import { Observable } from "rxjs";
+import { Customer } from "../types/customer";
+import { Account } from "../types/account";
+
+
+export class BankService {
+  
+  
+
+  addCustomer(customer: Customer): Observable<Customer> {
+    
+>>>>>>> 627b932617476d74b5308bdc8fc0f67ee634f20f
   }
 
   getCustomers(): Observable<Customer[]> {
@@ -24,7 +41,11 @@ export class BankService {
   }
 
   addAccount(account: Account): Observable<Account> {
+<<<<<<< HEAD
    
+=======
+    
+>>>>>>> 627b932617476d74b5308bdc8fc0f67ee634f20f
   }
 
   getAccounts(): Observable<Account[]> {
@@ -33,15 +54,27 @@ export class BankService {
   }
 
   performTransaction(transaction: Transaction): Observable<Transaction> {
+<<<<<<< HEAD
    
+=======
+    
+>>>>>>> 627b932617476d74b5308bdc8fc0f67ee634f20f
   }
 
   getOutstandingBalance(userId: string): Observable<number> {
     
+<<<<<<< HEAD
   }
 
   getAllTranactions(): Observable<Transaction[]> {
     
+=======
+
+  }
+
+  getAllTranactions(): Observable<Transaction[]> {
+   
+>>>>>>> 627b932617476d74b5308bdc8fc0f67ee634f20f
 
   }
   /** get account by user */
@@ -56,6 +89,7 @@ export class BankService {
   }
 
   deleteCustomer(customerId: number): Observable<any> {
+<<<<<<< HEAD
     
   }
 
@@ -69,6 +103,21 @@ export class BankService {
 
   editAccount(account: Account): Observable<Account> {
     // return null;
+=======
+   
+  }
+
+  editCustomer(customer: Customer): Observable<Customer> {
+    
+  }
+
+  deleteAccount(accountId: number): Observable<any> {
+   
+  }
+
+  editAccount(account: Account): Observable<Account> {
+    
+>>>>>>> 627b932617476d74b5308bdc8fc0f67ee634f20f
   }
 
 
